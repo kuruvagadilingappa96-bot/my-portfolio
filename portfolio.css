@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;   /* circle image */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: lightblue;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.front {
+    text-align: left;
+    margin-left: 10px;
+}
+.front1 {
+    text-align: left;
+    margin-left: 10px;
+}.front2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.para{
+        text-align: left;
+        margin-left: 100px;
+}
+.para1{
+        text-align: left;
+        margin-left: 100px;
+}.para2{
+        text-align: left;
+        margin-left: 100px;
+}.para3{
+        text-align: left;
+        margin-left: 100px;
+}
+
+.container{
+    width: 600px;
+    height: 230px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: lightblue;
+}
+.box1{
+    background-color: #FFC312;
+}
+.box2{
+    background-color: #C4E538;
+}
+.box3{
+    background-color: #12CBC4;
+}
+
+
+
+
+
+/* Sections */
+.about, .projects, .contact {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    background: #eee;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #ddd;
+    transform: scale(1.05);
+}
+.linkedin {
+    font-size: 30px;
+    color: #0077b5;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    color: #005582;
+}
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resume-btn:hover {
+    background: #218838;
+}
+.github {
+    font-size: 30px;
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.github:hover {
+    color: gray;
+}
